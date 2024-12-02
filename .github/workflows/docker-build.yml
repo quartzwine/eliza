@@ -35,5 +35,5 @@ jobs:
               run: |
                   chmod +x ./scripts/docker.sh
                   ./scripts/docker.sh build
-                  docker tag eliza:latest quartzwine/eliza:latest
-                  docker push quartzwine/eliza:latest
+                  docker tag biohazard:latest quartzwine/biohazard:latest
+                  docker push quartzwine/biohazard:latest
